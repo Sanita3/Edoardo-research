@@ -1,15 +1,8 @@
-declare module "*.scss" {
-  const content: string
-  export = content
-}
+---
+title: Edoardo Sanità
+---
 
-// dom custom event
-interface CustomEventMap {
-  prenav: CustomEvent<{}>
-  nav: CustomEvent<{ url: FullSlug }>
-  themechange: CustomEvent<{ theme: "light" | "dark" }>
-  readermodechange: CustomEvent<{ mode: "on" | "off" }>
-}
+# Benvenuti nel mio archivio di ricerca
+### Geologo Strutturale | Postdoc @ Università degli Studi "G. d'Annunzio" Chieti-Pescara
 
-type ContentIndex = Record<FullSlug, ContentDetails>
-declare const fetchData: Promise<ContentIndex>
+Qui raccolgo i miei studi, i dati dei rilievi e le mie pubblicazioni accademiche.
